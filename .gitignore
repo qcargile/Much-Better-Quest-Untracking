@@ -1,2 +1,5 @@
 MODPAGE.bbcode
 meta.ini
+*.rar
+*.zip
+*.7z
