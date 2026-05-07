@@ -22,10 +22,6 @@ If you'd rather clone the source, the same `bin/` tree is mirrored under `bin/x6
 - **Hardened localization.** Auto-discovers community translations placed in `language/<locale>.json`. Logs a clear warning if `language/en-us.json` is missing or invalid (raw localization keys would otherwise leak into the settings menu).
 - **Modular codebase.** UQU is one 2,612-line `init.lua`. MBQU is 13 files totaling ~1,580 lines, each owning one concern. MIT licensed, fully open source.
 
-## Do I need Merc Protocol installed for this to be worth it?
-
-No. Merc Protocol compatibility is one of several reasons. The vehicle gamepad fix, editable fixer-reward list, multi-language support, and clean modular structure stand on their own.
-
 ---
 
 ## Features
@@ -39,24 +35,12 @@ No. Merc Protocol compatibility is one of several reasons. The vehicle gamepad f
   - KBM: hold modifier + right-click. Default modifier: Left Shift.
   - Gamepad: context-aware single button. Default: Right Stick click (R3). On foot — long-press to fire (quick tap left to vanilla). In vehicle — quick tap to fire (long-press left to vanilla's look-behind). Threshold configurable (default 500 ms).
 
-**Anti-pestering guards**
-- Main quest re-tracking preventer. Default on.
-- Fixer Reward auto-tracking preventer. Default on.
-
-**Quality of life**
-- "Untracked" save list label.
-- 2.3+ POI marker untracking patch (always on).
-- Audio feedback with selectable sound + in-NUI test button.
-- Native Settings UI integration.
-- Multi-language support via `language/<locale>.json`.
-
 ---
 
 ## Requirements
 
 - [Cyber Engine Tweaks](https://www.nexusmods.com/cyberpunk2077/mods/107)
-- Cyberpunk 2077 game version 2.x
-- Optional: [Native Settings UI](https://www.nexusmods.com/cyberpunk2077/mods/4885) for the in-game settings menu
+- [Native Settings UI](https://www.nexusmods.com/cyberpunk2077/mods/4885) for the in-game settings menu
 
 ## Install
 
@@ -70,11 +54,9 @@ Remove `bin/x64/plugins/cyber_engine_tweaks/mods/MuchBetterQuestUntracking/`.
 
 ## Compatibility
 
-**Confirmed compatible:** Merc Protocol, Metro Pocket Guide, Limited HUD, Filter Saves by Lifepath, Custom Quickslots, Quickhack Hotkeys, Better Flashlight, Stealthrunner.
-
 **Do not run alongside:** Untrack Quest Ultimate (disable UQU first).
 
-**No known caveats.** Dark Future replaces `VehicleEventsTransition.HandleCameraInput`, but MBQU's vehicle suppression uses vanilla's status-effect gate which runs upstream of that method — no conflict.
+
 
 ## Known limitations
 
@@ -91,9 +73,7 @@ Before reporting, confirm: latest CET + game patch; the issue reproduces with on
 
 ## Credits
 
-- **anygoodname** — [Untrack Quest Ultimate](https://www.nexusmods.com/cyberpunk2077/mods/4727). MBQU is a clean-room rewrite using UQU's observable behavior as design reference.
-- **psiberx** — Cyber Engine Tweaks, `Ref.lua` weak-ref pattern, ongoing modding-community support.
-- **CDPR** — for keeping their game patchable.
+- All of the creators of the mods this mod requires, and any creators from which this mod is derived.
 
 ## License
 
