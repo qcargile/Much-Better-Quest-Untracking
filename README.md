@@ -1,6 +1,6 @@
 # Much Better Quest Untracking
 
-A clean-room reimplementation of [Untrack Quest Ultimate](https://www.nexusmods.com/cyberpunk2077/mods/4727) (UQU) by anygoodname. Same feature set, ~33% less code, fewer compatibility issues, better defaults, a vehicle camera fix, and architecture you can actually maintain.
+A clean-room reimplementation of [Untrack Quest Ultimate](https://www.nexusmods.com/cyberpunk2077/mods/6328) (UQU) by anygoodname. Same feature set, ~33% less code, fewer compatibility issues, better defaults, a vehicle camera fix, and architecture you can actually maintain.
 
 If you've been using UQU and ran into the **Merc Protocol incompatibility**, the **gamepad right-stick / look-behind conflict**, or just want a cleaner internal structure, this is for you. If you're new to quest untracking mods entirely, this is the one to install.
 
