@@ -17,10 +17,10 @@ If you'd rather clone the source, the same `bin/` tree is mirrored under `bin/x6
 ## Why this over UQU
 
 - **Compatible with Merc Protocol.** UQU's mod page documents this as a known incompatibility — UQU detects "last input device" via `PlayerLastUsedKBM`, which Merc Protocol shadows. MBQU does not detect input device at all (separate observe paths for KBM and pad), so the conflict cannot exist here.
-- **Vehicle look-behind no longer fires alongside the gamepad untrack.** UQU's mod page lists this as unfixable — pressing the right stick to untrack also triggers vanilla's look-behind camera. MBQU's gamepad gesture is **context-aware**: on foot, long-press fires the untrack (quick tap is left to vanilla, e.g. crouch). In vehicle, quick tap fires the untrack (long-press is left to vanilla's look-behind). Same single button (default R3), no overlap with what vanilla wants the button to do in either context.
-- **Fixer Reward objective list is editable.** UQU hardcodes the 6 objective hashes inside its `init.lua`. MBQU ships them in `data/fixer_reward_objectives.json` — when CDPR adds new gigs in a game patch, you can extend the list yourself without waiting for a mod update. An embedded fallback list ensures the guard still works if the JSON file is missing or invalid.
-- **Hardened localization.** Auto-discovers community translations placed in `language/<locale>.json`. Logs a clear warning if `language/en-us.json` is missing or invalid (raw localization keys would otherwise leak into the settings menu).
-- **Modular codebase.** UQU is one 2,612-line `init.lua`. MBQU is 13 files totaling ~1,580 lines, each owning one concern. MIT licensed, fully open source.
+- **Vehicle look-behind no longer fires alongside the gamepad untrack.** UQU's mod page lists this as unfixable — pressing the right stick to untrack also triggers vanilla's look-behind camera. MBQU's gamepad gesture is **context-aware**: on foot, long-press fires the untrack (quick tap is left to vanilla, e.g. crouch). In vehicle, quick tap fires the untrack (long-press is left to vanilla's look-behind).
+- **Fixer Reward objective list is editable.** UQU hardcodes the 6 objective hashes inside its `init.lua`. MBQU ships them in `data/fixer_reward_objectives.json` — when CDPR adds new gigs in a game patch, you can extend the list yourself without waiting for a mod update. 
+- **Hardened localization.** Auto-discovers community translations placed in `language/<locale>.json`. Logs a clear warning if `language/en-us.json` is missing or invalid
+- **Modular codebase.** UQU is one 2,612-line `init.lua`. MBQU is 13 files totaling ~1,580 lines, each owning one concern. 
 
 ---
 
