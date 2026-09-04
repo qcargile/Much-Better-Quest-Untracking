@@ -1,0 +1,48 @@
+{
+    "modName": "Much Better Quest Untracking",
+
+    "settings.category.directTriggers": "Direct (on marker)",
+    "settings.category.modifierTriggers": "Untrack-Anywhere",
+    "settings.category.guards": "Re-tracking Guards",
+    "settings.category.feedback": "Feedback",
+    "settings.category.misc": "Misc",
+
+    "settings.directMapClick.label": "Right-click on tracked map marker (KBM)",
+    "settings.directMapClick.desc": "Right-click directly on a tracked map marker (any kind — quests, vendors, NCPDs, custom waypoints) to untrack it.",
+    "settings.directMapPad.label": "Track button on tracked map marker (Gamepad)",
+    "settings.directMapPad.desc": "Press the gamepad track button on a tracked map marker (any kind) to untrack it.",
+
+    "settings.modifierKbmKey.label": "Untrack-anywhere key (KBM)",
+    "settings.modifierKbmKey.desc": "Click the field and press any key to bind. While this key is held, right-clicking anywhere — gameplay, inventory, journal, world map — toggles quest tracking. Default: Left Shift.",
+    "settings.enableModifierKbm.label": "Enable KBM untrack-anywhere",
+    "settings.enableModifierKbm.desc": "Master switch for the KBM 'hold key + right-click' path.",
+
+    "settings.modifierPadKey.label": "Untrack key (Gamepad)",
+    "settings.modifierPadKey.desc": "Click the field and press any gamepad button to bind. ON FOOT: long-press this button to toggle quest tracking. IN VEHICLE: quick-tap this button to toggle quest tracking (long-press is reserved for vanilla's look-behind camera). Default: Right Stick click (R3).",
+    "settings.enableLongPressPad.label": "Enable gamepad untrack",
+    "settings.enableLongPressPad.desc": "Master switch for the gamepad untrack key (both on-foot long-press and in-vehicle quick-tap behaviors).",
+    "settings.longPressThresholdMs.label": "Press threshold (ms)",
+    "settings.longPressThresholdMs.desc": "On foot: how long the button must be HELD to fire. In vehicle: how short the press must be (quick tap) to fire. Lower = snappier on foot but harder to quick-tap in vehicle. Higher = the opposite. 500 is balanced.",
+
+    "settings.preventMainQuestRetrack.label": "Prevent main quest auto-retrack",
+    "settings.preventMainQuestRetrack.desc": "If you've manually untracked a main quest objective, the game will not silently re-track it.",
+    "settings.preventFixerRewardAutotrack.label": "Prevent Fixer Reward auto-track",
+    "settings.preventFixerRewardAutotrack.desc": "Stops the game from auto-tracking the 'come pick up your reward' objective from completed Fixer gigs.",
+
+    "settings.playFeedbackSounds.label": "Play feedback sounds on toggle",
+    "settings.playFeedbackSounds.desc": "Plays a confirmation sound when you toggle tracking.",
+    "settings.feedbackSoundName.label": "Feedback sound",
+    "settings.feedbackSoundName.desc": "Pick the gameplay sound played when toggling. The menu sound is fixed (uses the vanilla map-pin sounds).",
+
+    "settings.feedbackSoundTest.label": "Test feedback sound",
+    "settings.feedbackSoundTest.desc": "Play the currently selected sound once.",
+    "settings.feedbackSoundTest.button": "Play",
+
+    "settings.languageOverride.label": "Language override",
+    "settings.languageOverride.desc": "Force a specific UI language instead of auto-detecting from the game. Leave blank to use the game's language. Restart the game to apply.",
+
+    "settings.showSaveListUntrackedLabel.label": "Show 'Untracked' label on save list",
+    "settings.showSaveListUntrackedLabel.desc": "When a save was made with no tracked quest, the load/save menu will show 'Untracked' instead of leaving the field blank.",
+
+    "saveList.untracked": "Untracked"
+}
